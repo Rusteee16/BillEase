@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:paddingBottom="5dp"
+                android:paddingLeft="5dp"
+
+                android:paddingRight="5dp"
+                android:paddingTop="5dp"
+                tools:context=".infogst"
+                android:background="#f3f3f2">
+
+
+    <ScrollView android:layout_marginTop="5dp"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/scrollView">
+
+
+        <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="267dp"
+                    app:cardElevation="10dp"
+                    app:cardCornerRadius="10dp"
+
+                    app:cardBackgroundColor="@color/white"
+                    app:cardMaxElevation="12dp"
+                    app:cardPreventCornerOverlap="true"
+                    app:cardUseCompatPadding="true"
+            >
+                <ImageView
+                        android:layout_width="361dp"
+                        android:layout_height="239dp"
+                        android:layout_gravity="top|center"
+                        app:srcCompat="@drawable/img_2"
+                        android:contentDescription="@string/app_name"/>
+
+
+            </androidx.cardview.widget.CardView>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                      android:text="GST " android:fontFamily="@font/poppins_bold"
+                      android:layout_marginHorizontal="20dp"
+                      android:textSize="24sp" android:textColor="#3E3D4E"></TextView>
+            <LinearLayout android:layout_width="match_parent" android:layout_height="match_parent"
+                          android:orientation="vertical" android:layout_marginHorizontal="20dp">
+                <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                          android:text="Goods and Services Tax which is abbreviated as GST is the form of tax which has been imposed by the Government of India at national level.
+
+The GST levied by the Government of India on the sellers, manufacturers, and consumers of goods and services at a national level.
+
+GST is derived from the concept of Value Added Tax (VAT) which means that it is applied at each stage and the consumer is supposed to pay the GST amount which is charged by last dealer or the supplier in the supply chain."
+                          android:fontFamily="@font/poppins">
+
+                </TextView>
+
+                <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                          android:text="GST can be categorised in four different heads such as"
+                          android:fontFamily="@font/poppins" android:layout_marginVertical="10dp">
+
+                </TextView>
+
+
+                <androidx.cardview.widget.CardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="320dp"
+                        app:cardElevation="10dp"
+                        app:cardCornerRadius="10dp"
+
+                        app:cardBackgroundColor="@color/white"
+                        app:cardMaxElevation="12dp"
+                        app:cardPreventCornerOverlap="true"
+                        app:cardUseCompatPadding="true"
+                >
+                    <TextView android:layout_width="match_parent" android:layout_height="70dp"
+                              android:text="State Goods and Services Tax (SGST)"
+                              android:background="@color/teal_200"
+                              android:textColor="@color/white" android:textAlignment="center"
+                              android:paddingTop="20dp" android:fontFamily="@font/poppins_semibold"></TextView>
+                    <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="top|center"
+                            app:srcCompat="@drawable/finance_app_amico"
+                            android:foregroundGravity="center"
+                            android:layout_marginTop="70dp"
+                            android:contentDescription="@string/app_name"/>
+
+
+                </androidx.cardview.widget.CardView>
+
+                <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                          android:text="State Government collects this tax
+
+"
+                          android:fontFamily="@font/poppins"
+                          android:layout_marginVertical="10dp">
+
+                </TextView>
+                <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="320dp"
+                        app:cardElevation="10dp"
+                        app:cardCornerRadius="10dp"
+
+                        app:cardBackgroundColor="@color/white"
+                        app:cardMaxElevation="12dp"
+                        app:cardPreventCornerOverlap="true"
+                        app:cardUseCompatPadding="true"
+                >
+                    <TextView android:layout_width="match_parent" android:layout_height="70dp"
+                              android:text="Central Goods and Services Tax (CGST)"
+                              android:background="@color/purple300"
+                              android:textColor="@color/white" android:textAlignment="center"
+                              android:paddingTop="20dp" android:fontFamily="@font/poppins_semibold"></TextView>
+                    <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="top|center"
+                            app:srcCompat="@drawable/tax_amico__1_"
+                            android:foregroundGravity="center"
+                            android:layout_marginTop="70dp"
+                            android:contentDescription="@string/app_name"/>
+
+
+
+
+
+                </androidx.cardview.widget.CardView>
+
+                <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                          android:text="Central Government collects this tax
+
+" android:layout_marginVertical="10dp"
+                          android:fontFamily="@font/poppins">  </TextView>
+                <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="320dp"
+                        app:cardElevation="10dp"
+                        app:cardCornerRadius="10dp"
+
+                        app:cardBackgroundColor="@color/white"
+                        app:cardMaxElevation="12dp"
+                        app:cardPreventCornerOverlap="true"
+                        app:cardUseCompatPadding="true"
+                >
+                    <TextView android:layout_width="match_parent" android:layout_height="70dp"
+                              android:text="Union Territory Goods and Services Tax (UTGST)"
+                              android:background="@color/teal_200"
+                              android:textColor="@color/white" android:textAlignment="center"
+                              android:paddingTop="20dp" android:fontFamily="@font/poppins_semibold"></TextView>
+                    <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="top|center"
+                            app:srcCompat="@drawable/invoice_bro"
+                            android:foregroundGravity="center"
+                            android:layout_marginTop="70dp"
+                            android:contentDescription="@string/app_name"/>
+
+
+                </androidx.cardview.widget.CardView>
+                <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                          android:text="Union Territory Government collects this tax"
+                          android:fontFamily="@font/poppins" android:layout_marginVertical="10dp">
+                </TextView>
+
+                <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="320dp"
+                        app:cardElevation="10dp"
+                        app:cardCornerRadius="10dp"
+
+                        app:cardBackgroundColor="@color/white"
+                        app:cardMaxElevation="12dp"
+                        app:cardPreventCornerOverlap="true"
+                        app:cardUseCompatPadding="true"
+                >
+                    <TextView android:layout_width="match_parent" android:layout_height="70dp"
+                              android:text="Integrated Goods and Services Tax (IGST)"
+                              android:background="@color/purple300"
+                              android:textColor="@color/white" android:textAlignment="center"
+                              android:paddingTop="20dp" android:fontFamily="@font/poppins_semibold"></TextView>
+                    <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="top|center"
+                            app:srcCompat="@drawable/reading_list_bro__1_"
+                            android:foregroundGravity="center"
+                            android:layout_marginTop="70dp"
+                            android:contentDescription="@string/app_name"/>
+
+
+                </androidx.cardview.widget.CardView>
+                <TextView android:layout_width="wrap_content" android:layout_height="match_parent"
+                          android:text=" It is collected by the Central Government for inter-state transactions and imports."
+                          android:fontFamily="@font/poppins" android:layout_marginVertical="10dp">
+
+                </TextView>
+
+                <TextView android:layout_width="wrap_content" android:layout_height="match_parent"
+                          android:text=" IGST is applied to interstate products where the supplier of the product is in different state and the product is supplied in a different state. In such a case, an equal rate of CGST and SGST is levied for interstate supplies."
+                          android:fontFamily="@font/poppins" android:layout_marginVertical="8dp">
+
+                </TextView>
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
